@@ -4,7 +4,6 @@ export default function Hero() {
   return (
     <div className="bg-white min-h-screen flex justify-center items-center">
       <div className="flex flex-col items-center space-y-4">
-      {/* <img src="https://img.freepik.com/premium-photo/cartoon-character-with-glasses-backpack-is-standing-dark-background_416902-158.jpg?size=338&ext=jpg&ga=GA1.1.386372595.1697673600&semt=ais" className="w-32 h-32 object-fit rounded-full"/> */}
         <div className="flex items-center flex-col space-y-1 p-8 ">
           <h1 className="text-3xl text-green-700 font-bold font-serif">
             Arya Rajput
