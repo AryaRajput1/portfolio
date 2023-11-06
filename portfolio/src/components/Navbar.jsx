@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-      <nav className="sticky bg-white top-0 left-0 right-0 h-16 border flex justify-between items-center p-8 z-20">
+      <nav className="sticky backdrop-blur-md top-0 left-0 right-0 h-16 border flex justify-between items-center p-8 z-20">
         <div className="text-white text-xl font-bold flex justify-center items-center bg-green-700 w-12 h-12 rounded-full hover:bg-white hover:text-green-700 duration-1000">
           AR
         </div>

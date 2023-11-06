@@ -1,3 +1,4 @@
+import Educations from "./components/Educations"
 import Experiences from "./components/Experiences"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
@@ -11,8 +12,9 @@ function App() {
     <Navbar/>
     <Hero/>
     <Projects/>
-    <Skills/>
     <Experiences/>
+    <Skills/>
+    <Educations/>
     <Footer/>
     </>
   )

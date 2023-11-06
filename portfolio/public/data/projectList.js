@@ -43,3 +43,23 @@ export const skillList = [
         title:'Css'
     }
 ] 
+
+export const experience = [{
+    title:'Infosys (Power Programmer)',
+    subtitle:'Present',
+    description:'UI-Developer (React-VueJs)'
+}]
+
+export const education = [{
+    title:'Uttarakhand Technical University',
+    subtitle:'2018-2022',
+    description:'Btech (CSE)- 83%'
+},{
+    title:'Uttarakhand Board',
+    subtitle:'2017',
+    description:'12th (PCM)- 87.4%'
+},{
+    title:'Uttarakhand Board',
+    subtitle:'2015',
+    description:'12th (PCM)- 89.4%'
+}]
