@@ -1,8 +1,9 @@
 import axios from "axios";
 import Skill from "./Skill";
 import { useEffect, useState } from "react";
+import { skillListData } from "../../public/data/projectList";
 export default function Skills() {
-  const [skillList,setSkillList]= useState([]);
+  const [skillList,setSkillList]= useState(skillListData);
   useEffect(()=>{
     (async ()=>{
       try{
@@ -15,6 +16,7 @@ export default function Skills() {
         setSkillList(projects)
       }catch(e){
         console.log(e);
+        setSkillList(skillListData)
       }
     })()
   },[])

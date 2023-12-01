@@ -1,65 +1,71 @@
-export const projectList = [
+export const projectListData = [
+    {
+        imgLink:'https://res.cloudinary.com/dtnslgjnm/image/upload/v1701458998/small_Screenshot_2023_12_02_005758_9a2f4e7d3f.png',
+        name:'Discord Clone',
+        url:'https://ar-discord-clone.up.railway.app',
+        bannerTitle:'NextJs'
+    },
     {
         imgLink: '/images/currency-converter.png',
-        title:'Currency Converter',
-        link:'https://ar-currency-converter.netlify.app',
+        name:'Currency Converter',
+        url:'https://ar-currency-converter.netlify.app',
         bannerTitle:'ReactJs'
     },
     {
         imgLink: '/images/tailwind-1.png',
-        title:'Gallary Minor',
-        link:'https://ar-tailwind-project-1.netlify.app',
+        name:'Gallary Minor',
+        url:'https://ar-tailwind-project-1.netlify.app',
         bannerTitle:'Tailwind'
     },
     {
         imgLink: '/images/todo.png',
-        title:'DnD Todo',
-        link:'https://ar-todos.netlify.app',
+        name:'DnD Todo',
+        url:'https://ar-todos.netlify.app',
         bannerTitle:'ReactJs'
     },
 
     
 ]
 
-export const skillList = [
+export const skillListData = [
     {
         imgLink:'/images/reactjs.png',
-        title:'ReactJs'
+        name:'ReactJs'
     },
     {
         imgLink:'/images/tailwind.jpg',
-        title:'Tailwind'
+        name:'Tailwind'
     },
     {
         imgLink:'/images/javascript.png',
-        title:'Javascript'
+        name:'Javascript'
     },
     {
         imgLink:'/images/vueJs.png',
-        title:'VueJs'
+        name:'VueJs'
     },
     {
         imgLink:'/images/css.png',
-        title:'Css'
+        name:'Css'
     }
 ] 
 
-export const experience = [{
+export const experienceListData = [{
     name:'Infosys (Power Programmer)',
     duration:'Present',
     description:'UI-Developer (React-VueJs)'
 }]
 
-export const education = [{
+export const educationListData = [{
     name:'Uttarakhand Technical University',
     duration:'2018-2022',
     description:'Btech (CSE)- 83%'
 },{
-    title:'Uttarakhand Board',
-    subtitle:'2017',
+    name:'Uttarakhand Board',
+    duration:'2017',
     description:'12th (PCM)- 87.4%'
 },{
-    title:'Uttarakhand Board',
-    subtitle:'2015',
+    name:'Uttarakhand Board',
+    duration:'2015',
     description:'12th (PCM)- 89.4%'
 }]

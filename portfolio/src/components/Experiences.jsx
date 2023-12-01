@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import Timelines from "./timeline/Timelines";
 import axios from "axios";
+import { experienceListData } from "../../public/data/projectList";
 
 export default function Experiences() {
-  const [experienceList,setExperienceList]= useState([]);
+  const [experienceList,setExperienceList]= useState(experienceListData);
   useEffect(()=>{
     (async ()=>{
       try{
@@ -18,6 +19,7 @@ export default function Experiences() {
         setExperienceList(experience)
       }catch(e){
         console.log(e);
+        setExperienceList(experienceListData)
       }
     })()
   },[])

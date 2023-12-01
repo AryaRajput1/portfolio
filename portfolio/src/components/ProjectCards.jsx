@@ -2,9 +2,10 @@ import axios from "axios";
 import ProjectCard from "./ProjectCard";
 import { useEffect } from "react";
 import { useState } from "react";
+import { projectListData } from "../../public/data/projectList";
 
 export default function ProjectCards() {
-  const [projectList,setProjectList]= useState([]);
+  const [projectList,setProjectList]= useState(projectListData);
   const fetchProjects = async ()=>{
     
   }
@@ -19,6 +20,7 @@ export default function ProjectCards() {
         })
         setProjectList(projects)
       }catch(e){
+        setProjectList(projectListData)
         console.log(e);
       }
     })()

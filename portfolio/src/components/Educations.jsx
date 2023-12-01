@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import Timelines from "./timeline/Timelines";
 import axios from "axios";
+import { educationListData } from "../../public/data/projectList";
 
 export default function Educations() {
-  const [educationList,setEducationList]= useState([]);
+  const [educationList,setEducationList]= useState(educationListData);
   useEffect(()=>{
     (async ()=>{
       try{
@@ -17,6 +18,7 @@ export default function Educations() {
         })
         setEducationList(education)
       }catch(e){
+        setEducationList(educationListData)
         console.log(e);
       }
     })()
