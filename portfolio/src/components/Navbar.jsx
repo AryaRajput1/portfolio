@@ -1,18 +1,30 @@
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 export default function Navbar() {
+  
   return (
-    <motion.nav
-    className="sticky backdrop-blur-md top-0 left-0 right-0 h-16 border flex justify-between items-center p-8 z-20">
-      <div className="text-white text-xl font-bold flex justify-center items-center bg-green-700 w-12 h-12 rounded-full hover:bg-white hover:text-green-700 duration-1000">
-        AR
-      </div>
-      <motion.a
-          initial={{ y: -250 }}
-          animate={{ y: 0 }}
-          transition={{delay:0.1,stiffness:50,type:'spring'}}
-        href="https://drive.google.com/file/d/1P2-MdTwZHR3-9TkBMvT6SQAE7zDxOabS/view?usp=share_link" target="_blank" rel="noreferrer" className="py-2 px-9 bg-green-700 text-white hover:border rounded-md text-bold border-green-800 hover:bg-white hover:text-green-700 ">Resume
-      </motion.a>
-
-    </motion.nav>
-  )
+    <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
+  <div className="container">
+    <a className="navbar-brand" href="#">Arya Rajput.</a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li className="nav-item">
+          <a className="nav-link" aria-current="page" href="#home">Home</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#projects">Projects</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#experience">Experience</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#education">Education</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  );
 }
