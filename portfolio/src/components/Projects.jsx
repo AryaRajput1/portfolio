@@ -2,15 +2,15 @@ import ProjectCards from "./ProjectCards";
 
 export default function Projects() {
   return (
-    <div className="font-serif px-8 pb-16 mx-4 flex flex-col items-center" id="#project">
-        <div className="group inline-block">
-        <h2 className="font-serif font-bold text-green-700 text-3xl mb-1 tracking-wide">Projects</h2>
-        <div className="h-2 bg-green-700 mx-8 group-hover:mx-0 duration-500 rounded-full"></div>
+    <div className="container mt-5" id="projects">
+      <div>
+        <h2 className="text-center">Projects</h2>
+      </div>
+      <section className="p-2">
+        <div className="container">
+          <ProjectCards />
         </div>
-        <div className="flex justify-center w-full mt-12">
-          <ProjectCards/>
-        </div>
+      </section>
     </div>
-  )
-  
+  );
 }

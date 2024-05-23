@@ -1,10 +1,34 @@
 export const projectListData = [
     {
-        imgLink:'https://res.cloudinary.com/dtnslgjnm/image/upload/v1701458998/small_Screenshot_2023_12_02_005758_9a2f4e7d3f.png',
-        name:'Discord Clone',
-        url:'https://ar-discord-clone.up.railway.app',
-        bannerTitle:'NextJs'
+        imgLink: '/images/youtube.png',
+        name:'Youtube Clone',
+        url:'https://ar-youtube-mate.netlify.app',
+        bannerTitle:'React'
     },
+    {
+        imgLink: '/images/shoplite.png',
+        name:'Ecommerce Website',
+        url:'https://ar-shoplite.netlify.app',
+        bannerTitle:'React'
+    },
+    {
+        imgLink: '/images/todo.png',
+        name:'DnD Todo',
+        url:'https://ar-todos.netlify.app',
+        bannerTitle:'ReactJs'
+    },
+    {
+        imgLink: '/images/expensetracker.png',
+        name:'Expense Tracker',
+        url:'https://ar-expensetracker.netlify.app',
+        bannerTitle:'React'
+    },
+    // {
+    //     imgLink:'https://res.cloudinary.com/dtnslgjnm/image/upload/v1701458998/small_Screenshot_2023_12_02_005758_9a2f4e7d3f.png',
+    //     name:'Discord Clone',
+    //     url:'https://ar-discord-clone.up.railway.app',
+    //     bannerTitle:'NextJs'
+    // },
     {
         imgLink: '/images/currency-converter.png',
         name:'Currency Converter',
@@ -16,12 +40,6 @@ export const projectListData = [
         name:'Gallary Minor',
         url:'https://ar-tailwind-project-1.netlify.app',
         bannerTitle:'Tailwind'
-    },
-    {
-        imgLink: '/images/todo.png',
-        name:'DnD Todo',
-        url:'https://ar-todos.netlify.app',
-        bannerTitle:'ReactJs'
     },
 
     

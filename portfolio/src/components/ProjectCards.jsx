@@ -26,7 +26,7 @@ export default function ProjectCards() {
     })()
   },[])
     return (
-      <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2  grid-cols-1 gap-16" >
+      <div className="row g-5">
        {
         projectList?.map(project=>{
             return (<ProjectCard key={project?.name} imgLink={project?.imgLink || ''} title={project?.name} bannerTitle={project?.bannerTitle || ''} link={project?.url}/>)

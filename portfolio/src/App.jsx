@@ -6,6 +6,7 @@ import MailMe from "./components/MailMe"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
+import WhatIdo from "./components/WhatIdo"
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
     <Navbar/>
     <Hero/>
     <MailMe/>
-    {/* <Projects/>
-    <Experiences/>
+    <WhatIdo/>
+    <Projects/>
+    {/* <Experiences/>
     <Skills/>
     <Educations/>
     <Footer/> */}
